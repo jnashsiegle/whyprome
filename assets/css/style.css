@@ -1,0 +1,53 @@
+html, body {
+     background-color: #fff ;
+     font-family: 'Source Serif Pro', serif;
+     text-shadow: 2px 1px 3px #778BA5;
+}
+nav, footer{
+     background-color: #5C6B7F;
+     height: 50px;
+}
+.navbar-light .bg-dark {
+     background-color: #5C6B7F;
+}
+.navbar-light .navbar-nav > li > a.nav-link{
+     color: #fff;
+}
+.navbar-nav {
+     background-color: rgba(92, 107, 127, .6);
+     width: 20%;
+}
+
+.jumbotron {
+   background: #fff url('../../images/jumbo.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+   color: #fff;
+   font-weight: bold;
+}
+.entry{
+     margin-top: 25%;
+}
+.entry_buttons {
+     background-color: rgba(119, 139, 165, .6);
+     color: #fff;
+     text-transform: uppercase;
+}
+section {
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+section > p.h2{
+     letter-spacing: 2px;
+     text-transform: uppercase;
+}
+.card-header {
+     background-color: #5C6B7F;
+     color: #fff;
+     text-shadow: 2px 1px 3px #778BA5;
+}
+#about {
+     background-color: rgba(119, 139, 165, .3);
+}
